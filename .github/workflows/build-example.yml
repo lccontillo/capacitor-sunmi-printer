@@ -3,6 +3,7 @@ name: Build Example
 on:
   push:
     tags: [ 'v*.*.*' ]
+  workflow_dispatch: 
 
 env:
   PACKAGE_NAME: dev.duma.capacitor.sunmiprinter.example
